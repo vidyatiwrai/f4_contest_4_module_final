@@ -1,0 +1,68 @@
+/* src/styles.css */
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar .shopping-cart {
+  margin-right: auto; /* Move "Shopping Cart" to the left */
+}
+
+.navbar li {
+  margin-left: auto; /* Set margin-left to auto for Home link */
+  margin-right: 0;   /* Set margin-right to 0 for My Cart link */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: lightgray;
+}
+.homepage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.item {
+  width: 200px; /* Adjust the width of each item as needed */
+  margin: 10px; /* Adjust the margin between items as needed */
+  text-align: center;
+}
+
+.item img {
+  width: 100%; /* Make sure the image takes the full width of the item */
+}
+
+
+.item h3 {
+  margin: 10px 0;
+}
+
+.item button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.item button:hover {
+  background-color: #0056b3;
+}

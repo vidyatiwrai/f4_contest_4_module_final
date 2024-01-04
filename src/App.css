@@ -1,0 +1,26 @@
+/* src/styles.css */
+.navbar {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: lightgray;
+}
